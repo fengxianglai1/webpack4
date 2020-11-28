@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config=webpack.development.js"
+    "dev": "node ./dev-server.js",
+    "build": "webpack --config=webpack.development.js"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +24,8 @@
     "vue-loader": "^15.9.5",
     "vue-style-loader": "^3.1.2",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "babel-loader": "^7.1.5"

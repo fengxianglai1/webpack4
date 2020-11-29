@@ -1,7 +1,7 @@
 var express = require('express')
 var webpack = require('webpack')
 var path = require('path')
-var webpackConfig = require('./webpack.development')
+var webpackConfig = require('../../webpack.development')
 var app = express();
 // webpack编译器
 var compiler = webpack(webpackConfig);
